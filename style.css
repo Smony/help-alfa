@@ -4915,6 +4915,7 @@ body {
     background: transparent;
     cursor: pointer;
     transition: all 0.4s ease 0s;
+    width: auto;
 }
 
 @media (max-width: 1460px) {
@@ -4941,6 +4942,7 @@ body {
     border: 1px solid #FC003D;
     border-radius: 40px;
     color: #FC003D;
+    background: #fff;
 }
 
 .button.red {
@@ -5045,7 +5047,7 @@ ul {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("/images/zendesk/bread-arrow.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/bread-arrow.svg") 50% 50% no-repeat;
 }
 
 .breadcrumbs__item:last-of-type {
@@ -5460,7 +5462,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     position: absolute;
     width: 56px;
     height: 56px;
-    background: url(/images/zendesk/search.svg) 50% 50% no-repeat;
+    background: url(https://alfabank.ua/images/zendesk/search.svg) 50% 50% no-repeat;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -5665,7 +5667,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("/images/zendesk/arrow-right.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/arrow-right.svg") 50% 50% no-repeat;
     transition: all 0.2s ease-out;
 }
 
@@ -5930,7 +5932,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     transform: translateY(-50%);
     width: 8px;
     height: 14px;
-    background: url("/images/zendesk/arror-red.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/arror-red.svg") 50% 50% no-repeat;
     transition: all 0.2s ease-out;
 }
 
@@ -6151,19 +6153,19 @@ footer .footer-top__social .social-item:last-of-type {
 }
 
 footer .footer-top__social .social-item.fb {
-    background: url("/images/zendesk/facebook.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/facebook.svg") 50% 50% no-repeat;
 }
 
 footer .footer-top__social .social-item.tw {
-    background: url("/images/zendesk/twitter.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/twitter.svg") 50% 50% no-repeat;
 }
 
 footer .footer-top__social .social-item.ig {
-    background: url("/images/zendesk/instagram.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/instagram.svg") 50% 50% no-repeat;
 }
 
 footer .footer-top__social .social-item.yt {
-    background: url("/images/zendesk/youtube.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/youtube.svg") 50% 50% no-repeat;
 }
 
 footer .footer-bottom {
@@ -6229,7 +6231,7 @@ footer .footer-bottom a:after {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background: url("/images/zendesk/globus.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/globus.svg") 50% 50% no-repeat;
 }
 
 .left-side {
@@ -6864,7 +6866,7 @@ footer .footer-bottom a:after {
     transform: translateY(-50%);
     width: 12px;
     height: 12px;
-    background: url("/images/zendesk/not-ok.svg");
+    background: url("https://alfabank.ua/images/zendesk/not-ok.svg");
     cursor: pointer;
 }
 
@@ -6880,7 +6882,7 @@ footer .footer-bottom a:after {
     transform: translateY(-50%);
     width: 14px;
     height: 12px;
-    background: url("/images/zendesk/ok.svg");
+    background: url("https://alfabank.ua/images/zendesk/ok.svg");
     cursor: pointer;
 }
 
@@ -7029,7 +7031,7 @@ footer .footer-bottom a:after {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("/images/zendesk/back.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/images/zendesk/back.svg") 50% 50% no-repeat;
 }
 
 .main__left {
