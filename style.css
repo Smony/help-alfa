@@ -4778,80 +4778,80 @@ a {
 
 @font-face {
     font-family: "GothamProRegular";
-    src: url(/fonts/GothamProRegular.eot?a5304a0333361029b28a91dbf7693e4f);
-    src: url(/fonts/GothamProRegular.eot?a5304a0333361029b28a91dbf7693e4f) format("embedded-opentype"), url(/fonts/GothamProRegular.woff?5ce3bc30d9e397ac3cce840f9f14551c) format("woff"), url(/fonts/GothamProRegular.ttf?2be5884cfacf402f5c51d11236433756) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProRegular.eot?a5304a0333361029b28a91dbf7693e4f);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProRegular.eot?a5304a0333361029b28a91dbf7693e4f) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProRegular.woff?5ce3bc30d9e397ac3cce840f9f14551c) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProRegular.ttf?2be5884cfacf402f5c51d11236433756) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProBold";
-    src: url(/fonts/GothamProBold.eot?35b1157a9fb02decfee874860c0e9573);
-    src: url(/fonts/GothamProBold.eot?35b1157a9fb02decfee874860c0e9573) format("embedded-opentype"), url(/fonts/GothamProBold.woff?f5cfc42e97cd9c8c75a24f14c2349aa5) format("woff"), url(/fonts/GothamProBold.ttf?45aa54635ee87503742d3b4af08a808f) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBold.eot?35b1157a9fb02decfee874860c0e9573);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBold.eot?35b1157a9fb02decfee874860c0e9573) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBold.woff?f5cfc42e97cd9c8c75a24f14c2349aa5) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBold.ttf?45aa54635ee87503742d3b4af08a808f) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProBlack";
-    src: url(/fonts/GothamProBlack.eot?6a9b59904c2c5341235ddba28870a854);
-    src: url(/fonts/GothamProBlack.eot?6a9b59904c2c5341235ddba28870a854) format("embedded-opentype"), url(/fonts/GothamProBlack.woff?32aec5ff768da4ae771c95fac7593191) format("woff"), url(/fonts/GothamProBlack.ttf?37c37df55859d300a0bc06ebab70beda) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlack.eot?6a9b59904c2c5341235ddba28870a854);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlack.eot?6a9b59904c2c5341235ddba28870a854) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBlack.woff?32aec5ff768da4ae771c95fac7593191) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBlack.ttf?37c37df55859d300a0bc06ebab70beda) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProItalic";
-    src: url(/fonts/GothamProItalic.eot?4d4e162c391961ea7d5408b418018aab);
-    src: url(/fonts/GothamProItalic.eot?4d4e162c391961ea7d5408b418018aab) format("embedded-opentype"), url(/fonts/GothamProItalic.woff?63a26a2ee05d2f5d595cf99af78fef74) format("woff"), url(/fonts/GothamProItalic.ttf?7ef366bf0f6611cd27031a4476f61882) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProItalic.eot?4d4e162c391961ea7d5408b418018aab);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProItalic.eot?4d4e162c391961ea7d5408b418018aab) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProItalic.woff?63a26a2ee05d2f5d595cf99af78fef74) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProItalic.ttf?7ef366bf0f6611cd27031a4476f61882) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProMedium";
-    src: url(/fonts/GothamProMedium.eot?059c21bbbd4877af782e973215bf6949);
-    src: url(/fonts/GothamProMedium.eot?059c21bbbd4877af782e973215bf6949) format("embedded-opentype"), url(/fonts/GothamProMedium.woff?597a8cbee739ee330e87114f7494d2b1) format("woff"), url(/fonts/GothamProMedium.ttf?7099ae8bd4ec17ea6cbaa2ee9a550fe5) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProMedium.eot?059c21bbbd4877af782e973215bf6949);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProMedium.eot?059c21bbbd4877af782e973215bf6949) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProMedium.woff?597a8cbee739ee330e87114f7494d2b1) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProMedium.ttf?7099ae8bd4ec17ea6cbaa2ee9a550fe5) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProLight";
-    src: url(/fonts/GothamProLight.eot?00565e2c147187e7198633d8a44628cd);
-    src: url(/fonts/GothamProLight.eot?00565e2c147187e7198633d8a44628cd) format("embedded-opentype"), url(/fonts/GothamProLight.woff?3c6c14f0c938b91ca568cb59f6febdc5) format("woff"), url(/fonts/GothamProLight.ttf?792e5785377b31db37697448eba44281) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProLight.eot?00565e2c147187e7198633d8a44628cd);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProLight.eot?00565e2c147187e7198633d8a44628cd) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProLight.woff?3c6c14f0c938b91ca568cb59f6febdc5) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProLight.ttf?792e5785377b31db37697448eba44281) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProMediumItalic";
-    src: url(/fonts/GothamProMediumItalic.eot?1e56ef2c3aba800dfa339226a96f2196);
-    src: url(/fonts/GothamProMediumItalic.eot?1e56ef2c3aba800dfa339226a96f2196) format("embedded-opentype"), url(/fonts/GothamProMediumItalic.woff?873fab5af6672b32e4d0ec117fd212ec) format("woff"), url(/fonts/GothamProMediumItalic.ttf?9a166032827e9b90c0888561d99f790b) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.eot?1e56ef2c3aba800dfa339226a96f2196);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.eot?1e56ef2c3aba800dfa339226a96f2196) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.woff?873fab5af6672b32e4d0ec117fd212ec) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.ttf?9a166032827e9b90c0888561d99f790b) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProLightItalic";
-    src: url(/fonts/GothamProLightItalic.eot?7ab49cecd52bf3934600d2b86e9e6240);
-    src: url(/fonts/GothamProLightItalic.eot?7ab49cecd52bf3934600d2b86e9e6240) format("embedded-opentype"), url(/fonts/GothamProLightItalic.woff?4ea07b845bbead40d7d18295bc904831) format("woff"), url(/fonts/GothamProLightItalic.ttf?7d0934c43f6a85dc462ca97acfed086a) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.eot?7ab49cecd52bf3934600d2b86e9e6240);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.eot?7ab49cecd52bf3934600d2b86e9e6240) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.woff?4ea07b845bbead40d7d18295bc904831) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.ttf?7d0934c43f6a85dc462ca97acfed086a) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProBoldItalic";
-    src: url(/fonts/GothamProBoldItalic.eot?7c5dd8e4edee79aecd4d492b01ed13ea);
-    src: url(/fonts/GothamProBoldItalic.eot?7c5dd8e4edee79aecd4d492b01ed13ea) format("embedded-opentype"), url(/fonts/GothamProBoldItalic.woff?4f06f710ffb7f62ba407e2def319ef97) format("woff"), url(/fonts/GothamProBoldItalic.ttf?a4b75c2bb4a9d65df8ff73baf3d032eb) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.eot?7c5dd8e4edee79aecd4d492b01ed13ea);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.eot?7c5dd8e4edee79aecd4d492b01ed13ea) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.woff?4f06f710ffb7f62ba407e2def319ef97) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.ttf?a4b75c2bb4a9d65df8ff73baf3d032eb) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "GothamProBlackItalic";
-    src: url(/fonts/GothamProBlackItalic.eot?1b308dcaa5a36f78cc269cb42dbc4e79);
-    src: url(/fonts/GothamProBlackItalic.eot?1b308dcaa5a36f78cc269cb42dbc4e79) format("embedded-opentype"), url(/fonts/GothamProBlackItalic.woff?9404e507dad65b8af3160f030fd0d4b1) format("woff"), url(/fonts/GothamProBlackItalic.ttf?4f706df6426297b6d4798ae698913267) format("truetype");
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.eot?1b308dcaa5a36f78cc269cb42dbc4e79);
+    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.eot?1b308dcaa5a36f78cc269cb42dbc4e79) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.woff?9404e507dad65b8af3160f030fd0d4b1) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.ttf?4f706df6426297b6d4798ae698913267) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -5047,7 +5047,7 @@ ul {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("https://alfabank.ua/images/zendesk/bread-arrow.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/bread-arrow.svg") 50% 50% no-repeat;
 }
 
 .breadcrumbs__item:last-of-type {
@@ -5462,7 +5462,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     position: absolute;
     width: 56px;
     height: 56px;
-    background: url(https://alfabank.ua/images/zendesk/search.svg) 50% 50% no-repeat;
+    background: url(https://alfabank.ua/zendesk/images/search.svg) 50% 50% no-repeat;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
@@ -5667,7 +5667,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("https://alfabank.ua/images/zendesk/arrow-right.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/arrow-right.svg") 50% 50% no-repeat;
     transition: all 0.2s ease-out;
 }
 
@@ -5932,7 +5932,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     transform: translateY(-50%);
     width: 8px;
     height: 14px;
-    background: url("https://alfabank.ua/images/zendesk/arror-red.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/arror-red.svg") 50% 50% no-repeat;
     transition: all 0.2s ease-out;
 }
 
@@ -6153,19 +6153,19 @@ footer .footer-top__social .social-item:last-of-type {
 }
 
 footer .footer-top__social .social-item.fb {
-    background: url("https://alfabank.ua/images/zendesk/facebook.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/facebook.svg") 50% 50% no-repeat;
 }
 
 footer .footer-top__social .social-item.tw {
-    background: url("https://alfabank.ua/images/zendesk/twitter.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/twitter.svg") 50% 50% no-repeat;
 }
 
 footer .footer-top__social .social-item.ig {
-    background: url("https://alfabank.ua/images/zendesk/instagram.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/instagram.svg") 50% 50% no-repeat;
 }
 
 footer .footer-top__social .social-item.yt {
-    background: url("https://alfabank.ua/images/zendesk/youtube.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/youtube.svg") 50% 50% no-repeat;
 }
 
 footer .footer-bottom {
@@ -6231,7 +6231,7 @@ footer .footer-bottom a:after {
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background: url("https://alfabank.ua/images/zendesk/globus.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/globus.svg") 50% 50% no-repeat;
 }
 
 .left-side {
@@ -6866,7 +6866,7 @@ footer .footer-bottom a:after {
     transform: translateY(-50%);
     width: 12px;
     height: 12px;
-    background: url("https://alfabank.ua/images/zendesk/not-ok.svg");
+    background: url("https://alfabank.ua/zendesk/images/not-ok.svg");
     cursor: pointer;
 }
 
@@ -6882,7 +6882,7 @@ footer .footer-bottom a:after {
     transform: translateY(-50%);
     width: 14px;
     height: 12px;
-    background: url("https://alfabank.ua/images/zendesk/ok.svg");
+    background: url("https://alfabank.ua/zendesk/images/ok.svg");
     cursor: pointer;
 }
 
@@ -7031,7 +7031,7 @@ footer .footer-bottom a:after {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: url("https://alfabank.ua/images/zendesk/back.svg") 50% 50% no-repeat;
+    background: url("https://alfabank.ua/zendesk/images/back.svg") 50% 50% no-repeat;
 }
 
 .main__left {
