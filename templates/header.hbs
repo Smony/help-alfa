@@ -7,7 +7,9 @@
     <img src="/images/header-image-mob-2.svg" alt="Image 1" class="header__mob-2">
     <div class="wrapper">
         <div class="header__top">
-            <img src="/images/logo-header.svg" class="logo" alt="Logo">
+            {{#link 'help_center'}}
+                <img src="{{settings.logo}}" class="logo" alt="{{t 'home_page' name=help_center.name}}">
+            {{/link}}
             <div class="header-top__buttons">
                 <div class="button red">Отправить запрос</div>
                 <div class="button">Вход</div>
