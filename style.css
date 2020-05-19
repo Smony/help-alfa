@@ -4785,7 +4785,7 @@ a {
 }
 
 @font-face {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     src: url(https://alfabank.ua/zendesk/fonts/GothamProBold.eot);
     src: url(https://alfabank.ua/zendesk/fonts/GothamProBold.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBold.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBold.ttf) format("truetype");
     font-style: normal;
@@ -4992,7 +4992,7 @@ ul {
     display: inline-block;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1520px) {
@@ -5061,7 +5061,7 @@ h2.section-title {
     font-weight: normal;
     color: #41414C;
     margin: 20px 0 60px 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1520px) {
@@ -5326,7 +5326,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     font-weight: normal;
     color: #41414C;
     margin-bottom: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1350px) {
@@ -5545,7 +5545,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     margin-bottom: 34px;
     color: #41414C;
     max-width: 70%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1250px) {
@@ -5799,7 +5799,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1520px) {
@@ -5897,7 +5897,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     display: block;
     width: 100%;
     padding: 10px 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1520px) {
@@ -5970,7 +5970,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     line-height: 1.2;
     font-weight: normal;
     max-width: 441px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1520px) {
@@ -6630,7 +6630,7 @@ footer .footer-bottom a:after {
     font-size: 36px;
     line-height: 120%;
     font-weight: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 40px 0;
     color: #41414C;
 }
@@ -6643,7 +6643,7 @@ footer .footer-bottom a:after {
     font-size: 46px;
     line-height: 120%;
     font-weight: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
 }
 
