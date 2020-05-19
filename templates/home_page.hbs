@@ -4,9 +4,6 @@
             <div class="question__title">Чем мы можем помочь?</div>
             <div class="question__description">Воспользуйтесь поиском или свяжитесь со специалистами команды поддержки</div>
             <div class="question__search">
-
-                {{search submit=false instant=settings.instant_search class='search search-full'}}
-
               <form role="search" action="/hc/uk-ua/search" data-search="" data-instant="true" autocomplete="off" name="main-search" id="main-search">
                     <input type="search" name="search" id="search" placeholder="Поиск" autocomplete="off" aria-label="Пошук">
                     <div class="search-btn">
@@ -18,32 +15,6 @@
         </div>
     </div>
 </section>
-
-<!--<section class="popular-articles">
-    <img src="https://alfabank.ua/zendesk/images/asd.svg" alt="Image 3" class="popular-articles__image">
-    <div class="wrapper">
-        <div class="articles-container">
-            <div class="articles-container__title">Популярные статьи</div>
-            <ul class="articles-container__list">
-                <li>
-                    <a href="#">Начало работы с Apple Pay</a>
-                </li>
-                <li>
-                    <a href="#">Начало работы с Apple Pay чало работы с Apple Pay Pay чало работы с Apple Pay</a>
-                </li>
-                <li>
-                    <a href="#">Начало работы с Apple Pay</a>
-                </li>
-                <li>
-                    <a href="#">Начало работы с Apple Pay</a>
-                </li>
-                <li>
-                    <a href="#">Начало работы с Apple Pay чало работы с Apple Pay Pay чало работы с Apple Pay</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>-->
 
 {{#if promoted_articles}}
 <section class="popular-articles">
