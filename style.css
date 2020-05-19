@@ -4774,88 +4774,6 @@ a {
     color: inherit;
 }
 
-/* Gotham Pro */
-
-/* @font-face {
-    font-family: "GothamProRegular";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProRegular.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProRegular.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProRegular.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProRegular.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBold.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBold.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBold.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBold.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProBlack";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlack.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlack.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBlack.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBlack.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProItalic";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProItalic.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProItalic.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProItalic.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProItalic.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProMedium";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProMedium.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProMedium.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProMedium.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProMedium.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProLight";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProLight.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProLight.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProLight.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProLight.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProMediumItalic";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProMediumItalic.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProLightItalic";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProLightItalic.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProBoldItalic";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBoldItalic.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "GothamProBlackItalic";
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.eot);
-    src: url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.eot) format("embedded-opentype"), url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.woff) format("woff"), url(https://alfabank.ua/zendesk/fonts/GothamProBlackItalic.ttf) format("truetype");
-    font-style: normal;
-    font-weight: normal;
-} */
-
 * {
     box-sizing: border-box;
 }
@@ -4871,7 +4789,7 @@ select {
 
 body {
     background: linear-gradient(180deg, #F0F3F8 0%, rgba(240, 243, 248, 0) 100%);
-    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
 
@@ -4993,6 +4911,7 @@ ul {
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
@@ -5062,6 +4981,7 @@ h2.section-title {
     color: #41414C;
     margin: 20px 0 60px 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
@@ -5327,6 +5247,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     color: #41414C;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1350px) {
@@ -5546,6 +5467,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     color: #41414C;
     max-width: 70%;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1250px) {
@@ -5800,6 +5722,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     line-height: 24px;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
@@ -5898,6 +5821,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     width: 100%;
     padding: 10px 0;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
@@ -5971,6 +5895,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     font-weight: normal;
     max-width: 441px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
@@ -6631,6 +6556,7 @@ footer .footer-bottom a:after {
     line-height: 120%;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     margin: 40px 0;
     color: #41414C;
 }
@@ -6644,6 +6570,7 @@ footer .footer-bottom a:after {
     line-height: 120%;
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -7246,7 +7173,7 @@ footer .footer-bottom a:after {
 }
 
 .main__right .result-item__title a {
-    font-family: "GothamProRegular", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
 }
 
