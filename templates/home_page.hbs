@@ -7,12 +7,19 @@
 
                 {{search submit=false instant=settings.instant_search class='search search-full'}}
 
-<!--                <form action="" name="main-search" id="main-search">
-                    <input type="search" name="search" id="search" placeholder="Поиск" autocomplete="off">
+                <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off" action="/hc/uk-ua/search" accept-charset="UTF-8" method="get">
+                    <input name="utf8" type="hidden" value="✓">
+                    <input type="search" name="query" id="query" placeholder="Пошук" autocomplete="off" aria-label="Пошук">
+                </form>
+
+                <br>
+              <form role="search" action="/hc/uk-ua/search" data-search="" data-instant="true" autocomplete="off" name="main-search" id="main-search">
+                    <input type="search" name="search" id="search" placeholder="Поиск" autocomplete="off" aria-label="Пошук">
                     <div class="search-btn">
                         <div class="search-btn__container"></div>
                     </div>
-                </form>-->
+                </form>
+
             </div>
         </div>
     </div>
