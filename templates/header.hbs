@@ -4,14 +4,15 @@
     <img src="https://alfabank.ua/zendesk/images/header-image-mob.svg" alt="Image 1" class="main-header-img header__mob">
     <img src="https://alfabank.ua/zendesk/images/header-image-mob-2.svg" alt="Image 1" class="main-header-img header__mob-2">
     <script>
-        let isMain = window.location.href.indexOf('/hc/uk-ua') > 0;
-        if (!isMain) {
+        let notMain = window.location.href.indexOf('/hc/uk-ua/') == -1;
+        if (notMain) {
             let images = document.querySelectorAll('.main-header-img');
             for ( let i =  0; i < images.length; i++ ) {
                 images[i].parentNode.removeChild(images[i]);
             }
         }
     </script>
+
     <div class="wrapper">
         <div class="header__top">
             {{#link 'help_center'}}
