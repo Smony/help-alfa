@@ -3,19 +3,6 @@
     <img src="https://alfabank.ua/zendesk/images/header-image-2.svg" alt="Image 1" class="main-header-img header__image-2">
     <img src="https://alfabank.ua/zendesk/images/header-image-mob.svg" alt="Image 1" class="main-header-img header__mob">
     <img src="https://alfabank.ua/zendesk/images/header-image-mob-2.svg" alt="Image 1" class="main-header-img header__mob-2">
-
-    <script>
-        let notMain = ( window.location.href.indexOf('/hc/uk-ua/') != -1) || (window.location.href.indexOf('/hc/ru/') != -1 );
-        if (notMain) {
-            document.querySelectorAll('.header__top')[0].classList.add('general');
-
-            let images = document.querySelectorAll('.main-header-img');
-            for ( let i =  0; i < images.length; i++ ) {
-                images[i].parentNode.removeChild(images[i]);
-            }
-        }
-    </script>
-
     <div class="wrapper">
         <div class="header__top">
             {{#link 'help_center'}}
@@ -50,5 +37,17 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let notMain = ( window.location.href.indexOf('/hc/uk-ua/') != -1) || (window.location.href.indexOf('/hc/ru/') != -1 );
+        if (notMain) {
+            document.querySelectorAll('.header__top')[0].classList.add('general');
+
+            let images = document.querySelectorAll('.main-header-img');
+            for ( let i =  0; i < images.length; i++ ) {
+                images[i].parentNode.removeChild(images[i]);
+            }
+        }
+    </script>
 </header>
 
