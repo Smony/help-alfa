@@ -4,7 +4,7 @@
     <img src="https://alfabank.ua/zendesk/images/header-image-mob.svg" alt="Image 1" class="main-header-img header__mob">
     <img src="https://alfabank.ua/zendesk/images/header-image-mob-2.svg" alt="Image 1" class="main-header-img header__mob-2">
     <script>
-        let notMain = window.location.href.indexOf('/hc/uk-ua/') != -1;
+        let notMain = ( window.location.href.indexOf('/hc/uk-ua/') != -1) || (window.location.href.indexOf('/hc/ru/') != -1 );
         if (notMain) {
             let images = document.querySelectorAll('.main-header-img');
             for ( let i =  0; i < images.length; i++ ) {
