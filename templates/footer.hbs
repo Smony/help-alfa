@@ -5,6 +5,9 @@
             <form id="subscription-form">
                 <input type="email" class="subscription-email" name="subscription-email" placeholder="Ваш email">
                 <div class="subscription-submit">Подписаться</div>
+                {{#if settings.show_follow_article}}
+                    <div class="article-subscribe">{{subscribe}}</div>
+                {{/if}}
             </form>
         </div>
     </div>

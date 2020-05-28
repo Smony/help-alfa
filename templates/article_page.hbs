@@ -32,7 +32,7 @@
                 </div>
             </section>
             <section class="comments small-container">
-                <h2 class="section-title">Комментарии</h2>
+                <h2 class="section-title">{{t 'comments'}}</h2>
 
                 <!--                <div class="comment">
                                     <img src="/images/zendesk/avatar.png" width="52" alt="Avatar" class="comment__avatar">
@@ -83,6 +83,29 @@
                                         </div>
                                     </div>
                                 </div>-->
+
+                <header class="comment-overview">
+                    <h2 class="comment-heading">
+                        {{t 'comments'}}
+                    </h2>
+                    <p class="comment-callout">{{t 'comments_count' count=article.comment_count}}</p>
+                    {{#if comments}}
+                        <div class="dropdown comment-sorter">
+                            <button class="dropdown-toggle" aria-haspopup="true">
+                                {{t 'sort_by'}}
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+                                    <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+                                </svg>
+                            </button>
+                            <span class="dropdown-menu" role="menu">
+                                {{#each comment_sorters}}
+                                    <a aria-selected="{{selected}}" href="{{url}}" role="menuitem">{{name}}</a>
+                                {{/each}}
+                            </span>
+                        </div>
+                    {{/if}}
+                </header>
+
             </section>
 
             <!--            <section class="popular-articles similar">
@@ -125,11 +148,11 @@
             <div class="right-side">
                 <aside class="menu-items absolute">
                     <div class="section-menu-container">
+                        <h2>{{t 'articles_in_section'}}</h2>
                         {{#each section.articles}}
                             <div class="section-menu-container__item {{#is id ../article.id}}current-article{{/is}}">
                                 <img src="https://alfabank.ua/zendesk/images/item-search.svg" alt="About">
                                 <div class="item-title"><a href="{{url}}">{{title}}</a></div>
-                                <div class="item-description">Стал клиентом, с чего начать</div>
                                 <div class="link-container">
                                     <a href="{{url}}" class="link">подробнее</a>
                                 </div>
