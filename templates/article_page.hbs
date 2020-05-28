@@ -41,6 +41,10 @@
                 <div class="text-block__content">
                     {{article.body}}
                 </div>
+
+                {{#if settings.show_article_sharing}}
+                    <div class="article-share">{{share}}</div>
+                {{/if}}
             </section>
 
             <section class="usefull small-container">
