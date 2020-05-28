@@ -7425,3 +7425,13 @@ input#search:focus {
     background: transparent;
     margin-bottom: 40px;
 }
+
+.usefull__answer button.is-ok.button-primary {
+    background-color: #fff !important;
+    box-shadow: 0px 4px 10px #219653;
+}
+
+.usefull__answer button.is-not-ok.button-primary {
+    background-color: #fff !important;
+    box-shadow: 0px 4px 10px red;
+}

@@ -402,7 +402,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function showIcons() {
-    let items = document.querySelectorAll("section.menu-items .section-menu-container__item");
+    let items = document.querySelectorAll(".menu-items.on-main-page .section-menu-container__item");
     for ( let i = 0; i < items.length; i++ ) {
       let image = items[i].querySelector("img");
       if (i == 0) {
