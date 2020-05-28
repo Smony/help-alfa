@@ -7385,3 +7385,43 @@ input#search:focus {
     width: 40px;
     margin-right: 10px;
 }
+
+#new_request.form footer {
+    background: inherit;
+    margin-bottom: 40px;
+}
+
+#new_request.form footer input{
+    background: #FC003D;
+    border: 1px solid #FC003D;
+    padding: 0 25px;
+    min-width: 128px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    width: auto;
+}
+
+#new_request .form-field input[type="text"] {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#new_request .form-field input[type="text"] {
+    border-radius: 30px;
+}
+
+#new_request textarea {
+    min-height: 120px;
+    border-radius: 30px;
+}
+
+#new_request .upload-dropzone {
+    border-radius: 30px;
+}
