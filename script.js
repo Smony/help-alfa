@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var burgerMenu = document.querySelector('.header .menu-button');
   var userMenu = document.querySelector('#user-nav');
 
-  if ( burgerMenu.length ) {
+  if ( burgerMenu != null ) {
     burgerMenu.addEventListener('click', function(e) {
       e.stopPropagation();
       toggleNavigation(this, userMenu);
