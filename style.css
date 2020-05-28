@@ -4973,11 +4973,16 @@ ul {
     background: url("https://alfabank.ua/zendesk/images/bread-arrow.svg") 50% 50% no-repeat;
 }
 
+.breadcrumbs li,
+.breadcrumbs li a:visited {
+    color: #000;
+}
+
 .breadcrumbs li:last-of-type {
     color: #C4C4C4;
     text-decoration: underline;
 }
-
+ 
 h2.section-title {
     font-size: 46px;
     line-height: 120%;
@@ -4992,7 +4997,7 @@ h2.section-title {
     h2.section-title {
         font-size: 36px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5006,7 +5011,7 @@ h2.section-title {
     h2.section-title {
         font-size: 30px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
         margin: 20px 0 40px 0;
     }
 }
@@ -5258,7 +5263,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .section-header__question .question__title {
         font-size: 50px;
         line-height: 50px;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5272,7 +5277,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .section-header__question .question__title {
         font-size: 36px;
         line-height: 36px;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5478,7 +5483,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .popular-articles .articles-container__title {
         font-size: 36px;
         line-height: 1.2;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5501,7 +5506,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
         margin-bottom: 430px;
         font-size: 30px;
         line-height: 1.2;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5727,13 +5732,14 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     font-weight: normal;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 @media (max-width: 1520px) {
     .menu-items .section-menu-container__item .item-title {
         font-size: 20px;
         line-height: 20px;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5741,7 +5747,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .menu-items .section-menu-container__item .item-title {
         font-size: 16px;
         line-height: 16px;
-        font-weight: normal;
+        font-weight: bold;
         min-height: 48px;
         margin-bottom: 12px;
     }
@@ -5832,7 +5838,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .menu-items .section-menu-container__item .link-container .link {
         font-size: 12px;
         line-height: 12px;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5840,7 +5846,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .menu-items .section-menu-container__item .link-container .link {
         font-size: 11px;
         line-height: 11px;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5848,7 +5854,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .menu-items .section-menu-container__item .link-container .link {
         font-size: 10px;
         line-height: 10px;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5906,7 +5912,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .subscription .wrapper .text {
         font-size: 30px;
         line-height: 1.2;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5914,7 +5920,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .subscription .wrapper .text {
         font-size: 18px;
         line-height: 1.2;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -5922,7 +5928,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .subscription .wrapper .text {
         font-size: 20px;
         line-height: 1.2;
-        font-weight: normal;
+        font-weight: bold;
         text-align: center;
         margin-bottom: 40px;
     }
@@ -6582,7 +6588,7 @@ footer .footer-bottom a:after {
     .text-block__title {
         font-size: 36px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -6590,7 +6596,7 @@ footer .footer-bottom a:after {
     .text-block__title {
         font-size: 30px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
