@@ -4896,14 +4896,14 @@ ul {
     margin-bottom: 20px;
 }
 
-.breadcrumbs__list {
+.breadcrumbs .wrapper .breadcrumbs {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.breadcrumbs__item {
+.breadcrumbs li {
     font-size: 18px;
     line-height: 120%;
     font-weight: normal;
@@ -4915,50 +4915,54 @@ ul {
 }
 
 @media (max-width: 1520px) {
-    .breadcrumbs__item {
+    .breadcrumbs li {
         font-size: 16px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
 @media (max-width: 1000px) {
-    .breadcrumbs__item {
+    .breadcrumbs li {
         font-size: 14px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
 @media (max-width: 760px) {
-    .breadcrumbs__item {
+    .breadcrumbs li {
         font-size: 12px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
-.breadcrumbs__item:not(:last-of-type) {
+.breadcrumbs li:not(:last-of-type) {
     padding-right: 30px;
     margin-right: 20px;
     position: relative;
 }
 
 @media (max-width: 1520px) {
-    .breadcrumbs__item:not(:last-of-type) {
+    .breadcrumbs li:not(:last-of-type) {
         padding-right: 25px;
         margin-right: 20px;
     }
 }
 
 @media (max-width: 1000px) {
-    .breadcrumbs__item:not(:last-of-type) {
+    .breadcrumbs li:not(:last-of-type) {
         padding-right: 21px;
         margin-right: 16px;
     }
 }
 
-.breadcrumbs__item:not(:last-of-type):after {
+.breadcrumbs li:before {
+    display: none;
+}
+
+.breadcrumbs li:not(:last-of-type):after {
     content: "";
     position: absolute;
     width: 5px;
@@ -4969,7 +4973,7 @@ ul {
     background: url("https://alfabank.ua/zendesk/images/bread-arrow.svg") 50% 50% no-repeat;
 }
 
-.breadcrumbs__item:last-of-type {
+.breadcrumbs li:last-of-type {
     color: #C4C4C4;
     text-decoration: underline;
 }
