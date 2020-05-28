@@ -14,7 +14,7 @@
                         <div class="question__description">{{category.description}}</div>
                     {{/if}}
                     <div class="question__search">
-                        <form role="search" class="search" data-search="" action="/hc/uk-ua/search" accept-charset="UTF-8" method="get" id="main-serch">
+                        <form role="search" class="search" data-search="" action="/hc/uk-ua/search" accept-charset="UTF-8" method="get" id="main-search">
                             <input name="utf8" type="hidden" value="✓">
                             <input type="search" name="search" id="query" placeholder="Пошук" aria-label="Пошук">
                             <div class="search-btn">
@@ -26,25 +26,17 @@
             </section>
             <section class="popular-articles">
                 <div class="articles-container">
-<!--                    <ul class="articles-container__list">
+                   <ul class="articles-container__list">
+                       {{#each sections}}
                         <li>
-                            <a href="#">Начало работы с Apple Pay</a>
+                            <a href="{{url}}">{{name}}</a>
                         </li>
-                        <li>
-                            <a href="#">Начало работы с Apple Pay чало работы с Apple Pay Pay чало работы с Apple
-                                Pay</a>
-                        </li>
-                        <li>
-                            <a href="#">Начало работы с Apple Pay</a>
-                        </li>
-                        <li>
-                            <a href="#">Начало работы с Apple Pay</a>
-                        </li>
-                        <li>
-                            <a href="#">Начало работы с Apple Pay чало работы с Apple Pay Pay чало работы с Apple
-                                Pay</a>
-                        </li>
-                    </ul>-->
+                       {{else}}
+                       <li>
+                           <a href="{{category.url}}">{{t 'empty'}}</a>
+                       </li>
+                       {{/each}}
+                    </ul>
                 </div>
             </section>
         </div>
@@ -84,27 +76,8 @@
 </div>
 <!--
 
-<div class="container-divider"></div>
-<div class="container">
-  <nav class="sub-nav">
-    {{breadcrumbs}}
-    <div class="search-container">
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon">
-        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
-        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
-      </svg>
-      {{search submit=false}}
-    </div>
-  </nav>
-
   <div class="category-container">
     <div class="category-content">
-      <header class="page-header">
-        <h1>{{category.name}}</h1>
-        {{#if category.description}}
-          <p class="page-header-description">{{category.description}}</p>
-        {{/if}}
-      </header>
 
       <div id="main-content" class="section-tree">
         {{#each sections}}
@@ -148,5 +121,5 @@
       </div>
     </div>
   </div>
-</div>
+
 -->
