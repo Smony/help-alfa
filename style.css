@@ -6242,14 +6242,14 @@ footer .footer-bottom a:after {
 .left-side .section-header__question .question__title {
     font-size: 46px;
     line-height: 120%;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
     .left-side .section-header__question .question__title {
         font-size: 36px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -6257,7 +6257,7 @@ footer .footer-bottom a:after {
     .left-side .section-header__question .question__title {
         font-size: 30px;
         line-height: 120%;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
@@ -7373,6 +7373,9 @@ input#search:focus {
     color: #333;
 }
 
+.user-info button {
+    color: #333;
+}
 .user-info button:focus {
     outline: none;
     color: #333;
