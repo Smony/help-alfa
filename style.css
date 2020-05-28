@@ -5619,7 +5619,6 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
 
 .menu-items .section-menu-container {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
@@ -5677,7 +5676,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
         min-height: 340px;
         margin-right: calc((100% - (260px * 4)) / 3);
         padding: 40px 20px 0 20px;
-        padding-bottom: 69px;
+        padding-bottom: 100px;
     }
 }
 
@@ -5687,7 +5686,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
         min-height: 290px;
         margin-right: calc((100% - (216px * 3)) / 2);
         padding: 30px 15px 0 15px;
-        padding-bottom: 60px;
+        padding-bottom: 80px;
     }
 }
 
@@ -7379,4 +7378,10 @@ input#search:focus {
 .user-info button:focus {
     outline: none;
     color: #333;
+}
+
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }

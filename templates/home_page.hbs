@@ -50,7 +50,7 @@
             {{#if ../has_multiple_categories}}
             <div class="section-menu-container__item">
                 <img src="https://alfabank.ua/zendesk/images/about-bank.svg" alt="About">
-                <div class="item-title">{{name}}</div>
+                <a href="{{url}}" class="item-title">{{name}}</a>
                 <div class="item-description">{{excerpt description}}</div>
                 <div class="link-container">
                     <a href="{{url}}" class="link">подробнее</a>
@@ -60,7 +60,7 @@
             {{#each sections}}
             <div class="section-menu-container__item">
                 <img src="https://alfabank.ua/zendesk/images/menu-2.svg" alt="About">
-                <div class="item-title">{{name}}</div>
+                <a href="{{url}}" class="item-title">{{name}}</a>
                 <div class="item-description">{{excerpt description}}</div>
                 <div class="link-container">
                     <a href="{{url}}" class="link">подробнее</a>
