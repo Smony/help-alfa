@@ -4,6 +4,31 @@
     </div>
 </section>
 
+<section class="menu-items big-items">
+    <div class="wrapper">
+        <h2 class="section-title">{{category.name}}</h2>
+        {{#if category.description}}
+            <div class="question__description">{{category.description}}</div>
+        {{/if}}
+    </div>
+    <div class="wrapper">
+        <div class="section-menu-container">
+            {{#each sections}}
+                <div class="section-menu-container__item">
+                    <img src="https://alfabank.ua/zendesk/images/start-icon.svg" alt="About">
+                    <div class="item-title"><a href="{{url}}">{{name}}</a></div>
+                    <div class="link-container">
+                        <a href="{{url}}" class="link">подробнее</a>
+                    </div>
+                </div>
+            {{else}}
+                {{t 'empty'}}
+            {{/each}}
+        </div>
+    </div>
+</section>
+
+<!--
 <div>
     <div class="wrapper wrapper-side">
         <div class="left-side">
@@ -49,7 +74,7 @@
 
         </div>
     </div>
-</div>
+</div>-->
 <!--
 
   <div class="category-container">
