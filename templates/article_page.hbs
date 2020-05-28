@@ -50,10 +50,10 @@
                         <div class="usefull__question">{{t 'was_this_article_helpful'}}</div>
                         <form name="usefull-answer" class="usefull__answer" id="usefull-answer">
                             <span class="is-ok-box">
-                                {{vote 'up' role='radio' class='button article-vote article-vote-up' selected_class="button-primary"}}
+                                {{vote 'up' role='radio' class='button article-vote article-vote-up is-ok' selected_class="button-primary"}}
                             </span>
                             <span class="is-not-ok-box">
-                                {{vote 'down' role='radio' class='button article-vote article-vote-down' selected_class="button-primary"}}
+                                {{vote 'down' role='radio' class='button article-vote article-vote-down is-not-ok' selected_class="button-primary"}}
                             </span>
                         </form>
                         <div class="usefull__statistic">{{vote 'label' class='article-vote-label'}}</div>
