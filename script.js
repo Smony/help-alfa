@@ -147,11 +147,12 @@ document.addEventListener('DOMContentLoaded', function() {
   var burgerMenu = document.querySelector('.header .menu-button');
   var userMenu = document.querySelector('#user-nav');
 
-  burgerMenu.addEventListener('click', function(e) {
-    e.stopPropagation();
-    toggleNavigation(this, userMenu);
-  });
-
+  if ( burgerMenu.length ) {
+    burgerMenu.addEventListener('click', function(e) {
+      e.stopPropagation();
+      toggleNavigation(this, userMenu);
+    });
+  }
 
   userMenu.addEventListener('keyup', function(e) {
     if (e.keyCode === ESCAPE) {

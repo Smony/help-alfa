@@ -7367,3 +7367,7 @@ input#search:focus {
     height: 40px;
     width: 40px;
 }
+
+.user-info {
+    margin-left: 20px;
+}
