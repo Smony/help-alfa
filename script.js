@@ -400,4 +400,21 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+  function showIcons() {
+    let items = document.querySelectorAll(".section-menu-container .section-menu-container__item");
+    for ( let i = 0; i < items.length; i++ ) {
+      let image = items[i].querySelector("img");
+      if (i == 0) {
+        let src = 'https://alfabank.ua/zendesk/images/about-bank.svg';
+        image.src = src;
+      } else {
+        let src = 'https://alfabank.ua/zendesk/images/menu-' + (i + 1) + '.svg';
+        image.src = src;
+      }
+      
+    }
+  }
+  showIcons();
+
 });
