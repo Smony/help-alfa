@@ -75,9 +75,7 @@
                 <div class="article-comments" id="article-comments">
                     <section class="comments">
                         <header class="comment-overview">
-                            <h2 class="comment-heading">
-                                {{t 'comments'}}
-                            </h2>
+                            <h2 class="section-title">{{t 'comments'}}</h2>
                             <p class="comment-callout">{{t 'comments_count' count=article.comment_count}}</p>
                             {{#if comments}}
                                 <div class="dropdown comment-sorter">
@@ -202,62 +200,6 @@
                 </div>
             {{/if}}
             <!-- END CUSTOM-->
-
-            <section class="comments small-container">
-                <h2 class="section-title">{{t 'comments'}}</h2>
-
-                <!--
-                                    <div class="comment">
-                                        <img src="/images/zendesk/avatar.png" width="52" alt="Avatar" class="comment__avatar">
-                                        <div class="comment__content">
-                                            <div class="comment__name">
-                                                Анатолий Мирный
-                                                <div class="settings">
-                                                    <a href="#" class="like">
-                                                        <img src="/images/zendesk/like.svg" alt="Like">
-                                                    </a>
-                                                    <a href="#" class="share">
-                                                        <img src="/images/zendesk/share.svg" alt="Share">
-                                                    </a>
-                                                    <a href="#" class="more">
-                                                        <img src="/images/zendesk/more.svg" alt="More">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="comment__text">
-                                                Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда
-                                                приемлемые модификации, например, юмористические вставки или слова,
-                                                которые даже отдалённо не напоминают латынь.
-                                            </div>
-                                        </div>
-                                    </div>
-                -->
-
-                <header class="comment-overview">
-                    <h2 class="comment-heading">
-                        {{t 'comments'}}
-                    </h2>
-                    <p class="comment-callout">{{t 'comments_count' count=article.comment_count}}</p>
-                    {{#if comments}}
-                        <div class="dropdown comment-sorter">
-                            <button class="dropdown-toggle" aria-haspopup="true">
-                                {{t 'sort_by'}}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false"
-                                     viewBox="0 0 12 12" class="dropdown-chevron-icon">
-                                    <path fill="none" stroke="currentColor" stroke-linecap="round"
-                                          d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
-                                </svg>
-                            </button>
-                            <span class="dropdown-menu" role="menu">
-                                {{#each comment_sorters}}
-                                    <a aria-selected="{{selected}}" href="{{url}}" role="menuitem">{{name}}</a>
-                                {{/each}}
-                            </span>
-                        </div>
-                    {{/if}}
-                </header>
-
-            </section>
 
             <section class="popular-articles similar">
                 <div class="articles-container">
