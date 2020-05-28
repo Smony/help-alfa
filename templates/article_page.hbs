@@ -42,20 +42,26 @@
                     {{article.body}}
                 </div>
             </section>
+
             <section class="usefull small-container">
                 <div class="usefull__item">
-                    <div class="usefull__question">Была ли эта статья полезной?</div>
-                    <form name="usefull-answer" class="usefull__answer" id="usefull-answer">
-                                <span class="is-ok-box">
-                                    <input type="submit" class="is-ok" name="is-ok" value="Да"/>
-                                </span>
-                        <span class="is-not-ok-box">
-                                    <input type="submit" class="is-not-ok" name="is-not-ok" value="Нет"/>
-                                </span>
-                    </form>
-                    <div class="usefull__statistic">Пользователи, считающие этот материал полезным: 12 из 15</div>
+
+                    {{#with article}}
+                        <div class="usefull__question">{{t 'was_this_article_helpful'}}</div>
+                        <form name="usefull-answer" class="usefull__answer" id="usefull-answer">
+                            <span class="is-ok-box">
+                                {{vote 'up' role='radio' class='button article-vote article-vote-up' selected_class="button-primary"}}
+                            </span>
+                            <span class="is-not-ok-box">
+                                {{vote 'down' role='radio' class='button article-vote article-vote-down' selected_class="button-primary"}}
+                            </span>
+                        </form>
+                        <div class="usefull__statistic">{{vote 'label' class='article-vote-label'}}</div>
+                    {{/with}}
+
                 </div>
             </section>
+
             <section class="comments small-container">
                 <h2 class="section-title">{{t 'comments'}}</h2>
 
