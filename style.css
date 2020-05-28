@@ -7386,12 +7386,7 @@ input#search:focus {
     margin-right: 10px;
 }
 
-#new_request.form footer {
-    background: inherit;
-    margin-bottom: 40px;
-}
-
-#new_request.form footer input{
+#new_request footer input {
     background: #FC003D;
     border: 1px solid #FC003D;
     padding: 0 25px;
@@ -7424,4 +7419,9 @@ input#search:focus {
 
 #new_request .upload-dropzone {
     border-radius: 30px;
+}
+
+#new_request footer {
+    background: transparent;
+    margin-bottom: 40px;
 }
