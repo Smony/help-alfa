@@ -154,15 +154,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  userMenu.addEventListener('keyup', function(e) {
-    if (e.keyCode === ESCAPE) {
-      e.stopPropagation();
-      closeNavigation(burgerMenu, this);
-    }
-  });
+  if ( userMenu != null ) {
+    userMenu.addEventListener('keyup', function(e) {
+      if (e.keyCode === ESCAPE) {
+        e.stopPropagation();
+        closeNavigation(burgerMenu, this);
+      }
+    });
 
-  if (userMenu.children.length === 0) {
-    burgerMenu.style.display = 'none';
+    if (userMenu.children.length === 0) {
+      burgerMenu.style.display = 'none';
+    }
   }
 
   // Toggles expanded aria to collapsible elements
