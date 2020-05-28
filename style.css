@@ -7274,9 +7274,13 @@ input#search:focus {
 }
 
 .articles-container h2 {
-    font-size: 22px;
+    font-size: 36px;
     line-height: 120%;
-    margin: 23px 0;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #41414C;
 }
 
 .articles-container ul {
@@ -7311,8 +7315,7 @@ input#search:focus {
         padding-right: 20px;
     }
     .articles-container h2 {
-        font-size: 20px;
-        margin: 17px 0;
+        font-size: 30px;
     }
 }
 
@@ -7325,8 +7328,7 @@ input#search:focus {
         padding-right: 20px;
     }
     .articles-container h2 {
-        font-size: 22px;
-        margin: 18px 0;
+        font-size: 28px;
     }
 }
 
