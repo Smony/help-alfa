@@ -14,7 +14,8 @@
                         <div class="question__description">{{category.description}}</div>
                     {{/if}}
                     <div class="question__search">
-                        <form role="search" class="search" data-search="" action="/hc/uk-ua/search" accept-charset="UTF-8" method="get" id="main-search">
+                        <form role="search" class="search" data-search="" action="/hc/uk-ua/search"
+                              accept-charset="UTF-8" method="get" id="main-search">
                             <input name="utf8" type="hidden" value="✓">
                             <input type="search" name="search" id="query" placeholder="Пошук" aria-label="Пошук">
                             <div class="search-btn">
@@ -24,54 +25,29 @@
                     </div>
                 </div>
             </section>
-            <section class="popular-articles">
-                <div class="articles-container">
-                   <ul class="articles-container__list">
-                       {{#each sections}}
-                        <li>
-                            <a href="{{url}}">{{name}}</a>
-                        </li>
-                       {{else}}
-                       <li>
-                           <a href="{{category.url}}">{{t 'empty'}}</a>
-                       </li>
-                       {{/each}}
-                    </ul>
+
+            <section class="menu-items big-items">
+                <div class="wrapper">
+                    <h2 class="section-title">Старт с Альфа</h2>
+                </div>
+                <div class="wrapper">
+                    <div class="section-menu-container">
+                        {{#each sections}}
+                            <div class="section-menu-container__item">
+                                <img src="https://alfabank.ua/zendesk/images/start-icon.svg" alt="About">
+                                <div class="item-title"><a href="{{url}}">{{name}}</a></div>
+                                <div class="link-container">
+                                    <a href="{{url}}" class="link">подробнее</a>
+                                </div>
+                            </div>
+                        {{else}}
+                            {{t 'empty'}}
+                        {{/each}}
+                    </div>
                 </div>
             </section>
+
         </div>
-<!--
-        <div class="right-side">
-            <aside class="menu-items absolute">
-                <div class="section-menu-container">
-                    <div class="section-menu-container__item">
-                        <img src="/images/zendesk/item-search.svg" alt="About">
-                        <div class="item-title">О банке</div>
-                        <div class="item-description">Стал клиентом, с чего начать</div>
-                        <div class="link-container">
-                            <a href="#" class="link">подробнее</a>
-                        </div>
-                    </div>
-                    <div class="section-menu-container__item">
-                        <img src="/images/zendesk/item-search.svg" alt="About">
-                        <div class="item-title">О банке</div>
-                        <div class="item-description">Стал клиентом, с чего начать</div>
-                        <div class="link-container">
-                            <a href="#" class="link">подробнее</a>
-                        </div>
-                    </div>
-                    <div class="section-menu-container__item">
-                        <img src="/images/zendesk/item-search.svg" alt="About">
-                        <div class="item-title">О банке</div>
-                        <div class="item-description">Стал клиентом, с чего начать</div>
-                        <div class="link-container">
-                            <a href="#" class="link">подробнее</a>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-        </div>
-        -->
     </div>
 </div>
 <!--
