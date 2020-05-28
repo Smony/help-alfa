@@ -6789,6 +6789,7 @@ footer .footer-bottom a:after {
     font-weight: 300;
     border-radius: 30px;
     width: 88px;
+    min-width: 88px;
     background: #fff;
     transition: all 0.2s ease-out;
 }
@@ -7271,5 +7272,80 @@ input#search:focus {
     font-weight: 300;
     color: #C4C4C4;
 }
+
+.articles-container h2 {
+    font-size: 22px;
+    line-height: 120%;
+    margin: 23px 0;
+}
+
+.articles-container ul {
+    margin: 50px 0 50px 0px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.articles-container ul li {
+    border-bottom: 1px solid rgba(65, 65, 76, 0.2);
+}
+
+.articles-container ul li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 23px 0;
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #41414C;
+    position: relative;
+}
+
+@media (max-width: 1520px) {
+    .articles-container ul li a {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+        padding: 17px 0;
+        padding-right: 20px;
+    }
+    .articles-container h2 {
+        font-size: 20px;
+        margin: 17px 0;
+    }
+}
+
+@media (max-width: 760px) {
+    .articles-container ul li a {
+        font-size: 18px;
+        line-height: 120%;
+        font-weight: normal;
+        padding: 18px 0;
+        padding-right: 20px;
+    }
+    .articles-container h2 {
+        font-size: 22px;
+        margin: 18px 0;
+    }
+}
+
+.articles-container ul li a:after {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("https://alfabank.ua/zendesk/images/arrow-right.svg") 50% 50% no-repeat;
+    transition: all 0.2s ease-out;
+}
+
+.articles-container ul li a:hover:after {
+    right: -5px;
+    transition: all 0.2s ease-out;
+}
+
 
 
