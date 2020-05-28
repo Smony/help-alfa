@@ -7370,4 +7370,10 @@ input#search:focus {
 
 .user-info {
     margin-left: 20px;
+    color: #333;
+}
+
+.user-info button:focus {
+    outline: none;
+    color: #333;
 }
