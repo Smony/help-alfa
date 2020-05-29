@@ -72,7 +72,11 @@
                 notMain = true;
                 hideForNotMain();
             };
+        } else if ( window.location.href.indexOf('/hc/contributions') != -1 ) {
+            notMain = true;
+            hideForNotMain();
         }
+        
 
         function hideForNotMain() {
             document.querySelectorAll('.header__top')[0].classList.add('general');
