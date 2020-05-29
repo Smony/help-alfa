@@ -5188,9 +5188,16 @@ header .header__top .logo {
     }
 }
 
+header .header__top .logo.mob {
+    display: none;
+}
+
 @media (max-width: 760px) {
-    header .header__top .logo {
-        width: 114px;
+    header .header__top .logo.desktop {
+        display: none;
+    }
+    header .header__top .logo.mob {
+        display: block;
     }
 }
 
@@ -5202,6 +5209,12 @@ header .header__top .header-top__buttons {
 
 header .header__top .header-top__buttons .button:not(:first-of-type) {
     margin-left: 20px;
+}
+
+@media (max-width: 760px) {
+    header .header__top .header-top__buttons .button:not(:first-of-type) {
+        margin-left: 10px;
+    }
 }
 
 .section-header {
@@ -6134,6 +6147,10 @@ footer .footer-top__social .social-item.ig {
 
 footer .footer-top__social .social-item.yt {
     background: url("https://alfabank.ua/zendesk/images/youtube.svg") 50% 50% no-repeat;
+}
+
+footer .footer-top__social .social-item.tg {
+    background: url("https://alfabank.ua/zendesk/images/telegram.svg") 50% 50% no-repeat;
 }
 
 footer .footer-bottom {
@@ -7434,4 +7451,22 @@ input#search:focus {
 .usefull__answer button.is-not-ok.button-primary {
     background-color: #fff !important;
     box-shadow: 0px 4px 10px red;
+}
+
+.header-top__buttons .lang {
+    margin: 0;
+    color: #FC003D;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+@media (max-width: 1520px) {
+    .header-top__buttons .lang {
+        font-size: 12px;
+    }
+}
+
+.header-top__buttons .lang.main {
+    color: #fff;
 }

@@ -6,10 +6,11 @@
     <div class="wrapper">
         <div class="header__top">
             {{#link 'help_center'}}
-                <img src="{{settings.logo}}" class="logo" alt="{{t 'home_page' name=help_center.name}}">
+                <img src="{{settings.logo}}" class="logo desktop" alt="{{t 'home_page' name=help_center.name}}">
+                <img src="https://alfabank.ua/zendesk/images/logo-mob-header.svg" class="logo mob" alt="{{t 'home_page' name=help_center.name}}">
             {{/link}}
             <div class="header-top__buttons">
-                
+                <a href="#" class="lang main">укр</a>
                 {{link 'community'}}
                 {{link 'new_request' class='button red'}}
 
@@ -42,6 +43,8 @@
         let notMain = ( window.location.href.indexOf('/hc/uk-ua/') != -1) || (window.location.href.indexOf('/hc/ru/') != -1 );
         if (notMain) {
             document.querySelectorAll('.header__top')[0].classList.add('general');
+
+            document.querySelector('.header__top .lang').classList.remove('main');
 
             let images = document.querySelectorAll('.main-header-img');
             for ( let i =  0; i < images.length; i++ ) {
