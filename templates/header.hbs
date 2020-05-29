@@ -40,7 +40,9 @@
     </div>
 
     <script>
-        let notMain = ( window.location.href.indexOf('/hc/uk-ua/') != -1) || (window.location.href.indexOf('/hc/ru/') != -1 );
+        let notMain = ( window.location.href.indexOf('/hc/uk-ua/') != -1) || 
+                      (window.location.href.indexOf('/hc/ru/') != -1 ) ||
+                      (window.location.href.indexOf('/hc/contributions/') != -1 );
         if (notMain) {
             document.querySelectorAll('.header__top')[0].classList.add('general');
 

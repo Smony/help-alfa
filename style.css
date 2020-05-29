@@ -7509,3 +7509,21 @@ input#search:focus {
     font-size: 20px;
     line-height: 120%;
 }
+
+.collapsible-nav-list li a {
+    color: #fff;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.collapsible-nav-list li.current a {
+    color: #FC003D;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+}
+.container h1 {
+    font-weight: bold;
+}
