@@ -5331,7 +5331,8 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     }
 }
 
-.question__search input {
+.question__search input,
+.question__search .search:not(#main-search) input[type="search"] {
     background: #FFFFFF;
     box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.08);
     border-radius: 55px;
@@ -5344,47 +5345,54 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
 }
 
 @media (max-width: 1520px) {
-    .question__search input {
+    .question__search input,
+    .question__search .search:not(#main-search) input[type="search"] {
         padding: 15px 30px;
     }
 }
 
-.question__search input::-webkit-input-placeholder {
+.question__search input::-webkit-input-placeholder,
+.question__search .search:not(#main-search) input[type="search"]::-webkit-input-placeholder {
     color: #84848D;
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
 }
 
-.question__search input::-moz-placeholder {
+.question__search input::-moz-placeholder,
+.question__search .search:not(#main-search) input[type="search"]::-moz-placeholder {
     color: #84848D;
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
 }
 
-.question__search input:-ms-input-placeholder {
+.question__search input:-ms-input-placeholder,
+.question__search .search:not(#main-search) input[type="search"]:-ms-input-placeholder {
     color: #84848D;
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
 }
 
-.question__search input::-ms-input-placeholder {
+.question__search input::-ms-input-placeholder,
+.question__search .search:not(#main-search) input[type="search"] {
     color: #84848D;
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
 }
 
-.question__search input::placeholder {
+.question__search input::placeholder,
+.question__search .search:not(#main-search) input[type="search"]::placeholder {
     color: #84848D;
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
 }
 
-.question__search .search-btn {
+.question__search .search-btn,
+.question__search .search:not(#main-search) input[type="search"]:after {
     content: '';
     position: absolute;
     width: 56px;
@@ -5403,7 +5411,8 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     height: 100%;
 }
 
-.question__search .search-btn__container:before {
+.question__search .search-btn__container:before,
+.question__search .search:not(#main-search) input[type="search"]:before {
     content: '';
     position: absolute;
     width: 56px;
@@ -7561,6 +7570,11 @@ h1.name {
     font-weight: bold;
 }
 
+.general .dropdown-toggle {
+    color: #333;
+}
+
 .dropdown-toggle:focus {
     outline: none;
 }
+
