@@ -24,11 +24,18 @@
             <div class="question__search">
                 {{search submit=false}}
             </div>
-            <div class="types">
-                <a href="#" class="type active">Все типы (89)</a>
-                <a href="#" class="type">Статьи (82)</a>
-                <a href="#" class="type">Сообщество (7)</a>
-            </div>
+            {{#if help_center_filters}}
+                <div class="types">
+                    {{#each help_center_filters}}
+
+                        <a href="{{url}}" class="type">
+
+                            {{name}}
+                            ({{count}})
+                        </a>
+                    {{/each}}
+                </div>
+            {{/if}}
             <div class="about-results">
 
                 {{#is current_filter.identifier 'unified'}}
