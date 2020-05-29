@@ -64,8 +64,10 @@
                       (window.location.href.length - window.location.href.indexOf('.ua/hc/ru') != 9 );
         if (notMain) {
             document.querySelectorAll('.header__top')[0].classList.add('general');
-
-            document.querySelector('.header__top .lang').classList.remove('main');
+            
+            if ( document.querySelector('.header__top .lang') != null ) {
+                document.querySelector('.header__top .lang').classList.remove('main');
+            }
 
             let images = document.querySelectorAll('.main-header-img');
             for ( let i =  0; i < images.length; i++ ) {
