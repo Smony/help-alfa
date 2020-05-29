@@ -5,7 +5,14 @@
             <div class="question__description">{{dc 'question__description'}}</div>
             <div class="question__search">
 
-                {{search submit=false instant=settings.instant_search class='search search-full'}}
+                <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off" action="/hc/uk-ua/search" accept-charset="UTF-8" method="get">
+                    <input name="utf8" type="hidden" value="✓">
+
+                    <input type="search" name="query" id="search query" placeholder="Поиск" autocomplete="off" aria-label="Пошук">
+                    <div class="search-btn">
+                        <div class="search-btn__container"></div>
+                    </div>
+                </form>
 
             </div>
         </div>
@@ -69,24 +76,3 @@
         {{pagination}}
     </div>
 </section>
-
-<!--
-<div class="container">
-  {{#if help_center.community_enabled}}
-    <section class="section home-section community">
-      <h2>{{t 'community'}}</h2>
-      {{#link 'community' class='community-link'}}
-        {{t 'join_conversation'}}
-      {{/link}}
-
-      <div class="community-image"></div>
-    </section>
-  {{/if}}
-
-  <section class="section home-section activity">
-    {{#if settings.show_recent_activity}}
-      {{recent_activity}}
-    {{/if}}
-  </section>
-</div>
--->
