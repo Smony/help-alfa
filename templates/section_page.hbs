@@ -14,14 +14,7 @@
                         <div class="question__description">{{section.description}}</div>
                     {{/if}}
                     <div class="question__search">
-                        <form role="search" class="search" data-search="" action="/hc/uk-ua/search"
-                              accept-charset="UTF-8" method="get" id="main-search">
-                            <input name="utf8" type="hidden" value="✓">
-                            <input type="search" name="search" id="query" placeholder="Пошук" aria-label="Пошук">
-                            <div class="search-btn">
-                                <div class="search-btn__container"></div>
-                            </div>
-                        </form>
+                        {{search submit=false instant=settings.instant_search class='search search-full'}}
                     </div>
                 </div>
             </section>
@@ -79,7 +72,7 @@
                                 <img src="https://alfabank.ua/zendesk/images/item-search.svg" alt="{{name}}">
                                 <div class="item-title"><a href="{{url}}">{{name}}</a></div>
                                 <div class="link-container">
-                                    <a href="{{url}}" class="link">подробнее</a>
+                                    <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
                                 </div>
                             </div>
                         {{/each}}
