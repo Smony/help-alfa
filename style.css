@@ -7531,3 +7531,7 @@ input#search:focus {
 .my-activities-nav {
     background: #41414C;
 }
+
+.my-activities-header .collapsible-nav-list li a {
+    color: #41414C;
+}
