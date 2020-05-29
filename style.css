@@ -7527,3 +7527,7 @@ input#search:focus {
 .container h1 {
     font-weight: bold;
 }
+
+.my-activities-nav {
+    background: #41414C;
+}
