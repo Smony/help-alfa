@@ -7586,3 +7586,6 @@ h1.name {
     outline: none;
 }
 
+.header-top__buttons .footer-language-selector {
+    margin-right: 10px;
+}
