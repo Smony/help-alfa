@@ -5340,6 +5340,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     font-size: 24px;
     line-height: 24px;
     font-weight: normal;
+    border: none !important;
 }
 
 @media (max-width: 1520px) {
@@ -7553,4 +7554,13 @@ input#search:focus {
 h1.name {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.dropdown-toggle {
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown-toggle:focus {
+    outline: none;
 }
