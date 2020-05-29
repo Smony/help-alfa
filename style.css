@@ -7014,7 +7014,8 @@ footer .footer-bottom a:after {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: "GothamProBold", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .main .types .type {
@@ -7057,7 +7058,8 @@ footer .footer-bottom a:after {
     font-size: 18px;
     line-height: 120%;
     font-weight: normal;
-    font-family: "GothamProBold", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 @media (max-width: 1520px) {
@@ -7156,7 +7158,7 @@ footer .footer-bottom a:after {
 }
 
 .main__right .result-item__left {
-    width: 160px;
+    width: 185px;
 }
 
 @media (max-width: 760px) {
@@ -7168,7 +7170,7 @@ footer .footer-bottom a:after {
 }
 
 .main__right .result-item__right {
-    width: calc( 100% - 160px - 40px);
+    width: calc( 100% - 185px - 20px);
 }
 
 @media (max-width: 760px) {
@@ -7266,6 +7268,7 @@ footer .footer-bottom a:after {
 .main__right .result-item__title a {
     font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .main__right .result-item__title a:hover {
@@ -7499,4 +7502,10 @@ input#search:focus {
 
 .header-top__buttons .lang.main {
     color: #fff;
+}
+
+.big-items .question__description {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 120%;
 }
