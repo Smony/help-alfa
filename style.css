@@ -5342,7 +5342,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     line-height: 24px;
     font-weight: normal;
     border: none !important;
-    height: auto;
+    height: auto !important;
 }
 
 @media (max-width: 1520px) {
@@ -7571,6 +7571,14 @@ h1.name {
 }
 
 .general .dropdown-toggle {
+    color: #333;
+}
+
+.user-info button {
+    color: #fff;
+}
+
+.general .user-info button {
     color: #333;
 }
 
