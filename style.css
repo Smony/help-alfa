@@ -7589,3 +7589,18 @@ h1.name {
 .header-top__buttons .footer-language-selector {
     margin-right: 10px;
 }
+
+.text-block__content ul {
+    list-style-type: disc;
+    padding-left: 10px;
+}
+
+.text-block__content ul li {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin: 0 0 20px 10px;
+}
+
+.text-block__content ul li a {
+    text-decoration: underline;
+}
