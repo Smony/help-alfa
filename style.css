@@ -7656,6 +7656,8 @@ h1.name {
 
 .articles-container__list .article-promoted {
     position: relative;
+}
+.articles-container__list .article-promoted a {
     padding-left: 25px;
 }
 
