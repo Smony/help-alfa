@@ -7632,3 +7632,24 @@ h1.name {
     text-decoration: none;
     color: #FC003D;
 }
+
+@media (max-width: 450px) {
+    header .header__top .header-top__buttons {
+        flex-wrap: wrap;
+    }
+    .header-top__buttons .footer-language-selector {
+        width: 100%;
+        order: 3;
+        text-align: right;
+        margin-top: 0;
+    }
+}
+
+.text-block__content ol {
+    padding-left: 10px;
+}
+
+.text-block__content ol li {
+    margin-bottom: 20px;
+    margin: 0 0 20px 10px;
+}
