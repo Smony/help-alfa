@@ -57,28 +57,39 @@
                                id="see-all-sections-trigger" title="{{t 'see_all_sections'}}">{{t
                                     'see_all_sections'}}</a>
                         </ul>
+                    {{else}}
+                        {{#if section.sections}}
+                            <ul class="articles-container__list">
+                                {{#each section.sections}}
+                                    <li><a href="{{url}}">{{name}}</a></li>
+                                {{/each}}
+                            </ul>
+                        {{/if}}
                     {{/if}}
 
                     {{pagination}}
                 </div>
             </section>
         </div>
-        {{#if section.sections}}
-            <div class="right-side">
-                <aside class="menu-items absolute">
-                    <div class="section-menu-container">
-                        {{#each section.sections}}
-                            <div class="section-menu-container__item">
-                                <img src="https://alfabank.ua/zendesk/images/item-search.svg" alt="{{name}}">
-                                <div class="item-title"><a href="{{url}}">{{name}}</a></div>
-                                <div class="link-container">
-                                    <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
+        {{#if section.articles}}
+            {{#if section.sections}}
+                <div class="right-side">
+                    <aside class="menu-items absolute">
+                        <div class="section-menu-container">
+                            {{#each section.sections}}
+                                <div class="section-menu-container__item">
+                                    <img src="https://alfabank.ua/zendesk/images/item-search.svg" alt="{{name}}">
+                                    <div class="item-title"><a href="{{url}}">{{name}}</a></div>
+                                    <div class="link-container">
+                                        <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
+                                    </div>
                                 </div>
-                            </div>
-                        {{/each}}
-                    </div>
-                </aside>
-            </div>
+                            {{/each}}
+                        </div>
+                    </aside>
+                </div>
+            {{/if}}
+        {{else}}
         {{/if}}
     </div>
 </div>
