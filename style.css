@@ -7604,3 +7604,31 @@ h1.name {
 .text-block__content ul li a {
     text-decoration: underline;
 }
+
+.text-block__content img {
+    display: block;
+    max-width: 100%;
+    margin: 15px 0;
+}
+
+.text-block__content h1,
+.text-block__content h2,
+.text-block__content h3,
+.text-block__content h4,
+.text-block__content h5,
+.text-block__content h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 5px 0 15px 0;
+}
+
+.text-block__content a {
+    text-decoration: underline;
+    transition: color .3s ease-in-out;
+    color: #333;
+}
+
+.text-block__content a:hover {
+    text-decoration: none;
+    color: #FC003D;
+}
