@@ -7667,8 +7667,11 @@ h1.name {
     transform: translateY(-50%);
 }
 
-.custom_italic {
+.custom_italic,
+em {
     font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 !important;
 }
 
 .text-block__content table tr td {
