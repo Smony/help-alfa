@@ -7658,7 +7658,7 @@ h1.name {
     position: relative;
 }
 .articles-container__list .article-promoted a {
-    padding-left: 25px;
+    padding-left: 25px !important;
 }
 
 .articles-container__list .article-promoted svg {
