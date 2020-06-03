@@ -7653,3 +7653,27 @@ h1.name {
     margin-bottom: 20px;
     margin: 0 0 20px 10px;
 }
+
+.articles-container__list .article-promoted {
+    position: relative;
+}
+
+.articles-container__list .article-promoted svg {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom_italic {
+    font-style: italic;
+}
+
+.text-block__content table tr td {
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+.text-block__content table tr td p {
+    margin-bottom: 0;
+}
