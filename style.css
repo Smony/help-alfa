@@ -5111,12 +5111,12 @@ header .header__top {
     align-items: center;
     justify-content: space-between;
     padding: 35px 0;
-    margin-bottom: 255px;
+    margin-bottom: 13.3vw;
 }
 
 @media (max-width: 1460px) {
     header .header__top {
-        margin-bottom: 174px;
+        margin-bottom: 9.0625vw;
     }
 }
 
@@ -5697,7 +5697,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     padding-bottom: 118px;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: space-between;
     flex-direction: column;
     margin-bottom: 50px;
 }
@@ -7660,7 +7660,6 @@ h1.name {
 .articles-container__list .article-promoted a {
     padding-left: 25px !important;
 }
-
 .articles-container__list .article-promoted svg {
     position: absolute;
     left: 0;
