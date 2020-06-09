@@ -62,12 +62,12 @@
     <script>
         let notMain = false;
 
-        if ( window.location.href.indexOf('.ua/hc/uk-ua') != -1 ) {
+        if ( window.location.href.indexOf('.ua/hc/uk-ua') != -1 && window.location.href.indexOf('.ua/hc/uk-ua?_ga=') == -1) {
             if ( window.location.href.length - window.location.href.indexOf('.ua/hc/uk-ua') != 12 ) {
                 notMain = true;
                 hideForNotMain();
             }
-        } else if ( window.location.href.indexOf('.ua/hc/ru') != -1 ) {
+        } else if ( window.location.href.indexOf('.ua/hc/ru') != -1 && window.location.href.indexOf('.ua/hc/ru?_ga=') == -1 ) {
             if ( window.location.href.length - window.location.href.indexOf('.ua/hc/ru') != 9 ) {
                 notMain = true;
                 hideForNotMain();
