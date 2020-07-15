@@ -4,6 +4,7 @@
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -5134,11 +5135,11 @@ header .header__top {
 
 @media (max-width: 600px) {
     header .header__top {
-        margin-bottom: 750px;
+        margin-bottom: 280px;
     }
 }
 
-@media (max-width: 550px) {
+/* @media (max-width: 550px) {
     header .header__top {
         margin-bottom: 700px;
     }
@@ -5160,7 +5161,7 @@ header .header__top {
     header .header__top {
         margin-bottom: 500px;
     }
-}
+} */
 
 header .header__top.general {
     margin-bottom: 75px;

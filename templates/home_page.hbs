@@ -53,20 +53,20 @@
             {{#if ../has_multiple_categories}}
             <a href="{{url}}" class="section-menu-container__item">
                 <img src="https://alfabank.ua/zendesk/images/about-bank.svg" alt="About">
-                <a href="{{url}}" class="item-title">{{name}}</a>
+                <div href="{{url}}" class="item-title">{{name}}</div>
                 <div class="item-description">{{excerpt description}}</div>
                 <div class="link-container">
-                    <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
+                    <div class="link">{{dc 'link-container-go'}}</div>
                 </div>
             </a>
         {{else}}
             {{#each sections}}
             <a href="{{url}}" class="section-menu-container__item">
                 <img src="https://alfabank.ua/zendesk/images/menu-2.svg" alt="About">
-                <a href="{{url}}" class="item-title">{{name}}</a>
+                <div href="{{url}}" class="item-title">{{name}}</div>
                 <div class="item-description">{{excerpt description}}</div>
                 <div class="link-container">
-                    <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
+                    <div href="{{url}}" class="link">{{dc 'link-container-go'}}</div>
                 </div>
             </a>
             {{/each}}
