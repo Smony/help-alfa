@@ -51,24 +51,24 @@
         <div class="section-menu-container">
         {{#each categories}}
             {{#if ../has_multiple_categories}}
-            <div class="section-menu-container__item">
+            <a href="{{url}}" class="section-menu-container__item">
                 <img src="https://alfabank.ua/zendesk/images/about-bank.svg" alt="About">
                 <a href="{{url}}" class="item-title">{{name}}</a>
                 <div class="item-description">{{excerpt description}}</div>
                 <div class="link-container">
                     <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
                 </div>
-            </div>
+            </a>
         {{else}}
             {{#each sections}}
-            <div class="section-menu-container__item">
+            <a href="{{url}}" class="section-menu-container__item">
                 <img src="https://alfabank.ua/zendesk/images/menu-2.svg" alt="About">
                 <a href="{{url}}" class="item-title">{{name}}</a>
                 <div class="item-description">{{excerpt description}}</div>
                 <div class="link-container">
                     <a href="{{url}}" class="link">{{dc 'link-container-go'}}</a>
                 </div>
-            </div>
+            </a>
             {{/each}}
             {{/if}}
         {{/each}}

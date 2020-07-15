@@ -5085,17 +5085,17 @@ header .header__mob {
     }
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
     header .header__mob {
         display: none;
     }
-}
+} */
 
 header .header__mob-2 {
     display: none;
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
     header .header__mob-2 {
         display: block;
         position: absolute;
@@ -5104,7 +5104,7 @@ header .header__mob-2 {
         width: 100%;
         z-index: -1;
     }
-}
+} */
 
 header .header__top {
     display: flex;
@@ -5296,6 +5296,14 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     }
 }
 
+@media (max-width: 600px) {
+    .section-header__question .question__title {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+}
+
 .section-header__question .question__description {
     font-size: 20px;
     line-height: 1.4;
@@ -5316,6 +5324,15 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
 @media (max-width: 1000px) {
     .section-header__question .question__description {
         text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-header__question .question__description {
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: normal;
+        margin-bottom: 20px;
     }
 }
 
@@ -5349,6 +5366,13 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .question__search input,
     .question__search .search input[type="search"] {
         padding: 15px 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .question__search input,
+    .question__search .search input[type="search"] {
+        padding: 10px 30px;
     }
 }
 
@@ -5406,6 +5430,14 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    .question__search .search-btn,
+    .question__search .search:not(#main-search) input[type="search"]:after {
+        width: 46px;
+        height: 46px;
+    }
+}
+
 .question__search .search-btn__container {
     position: relative;
     width: 100%;
@@ -5422,6 +5454,13 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+}
+
+@media (max-width: 600px) {
+    .question__search .search-btn__container:before {
+        width: 46px;
+        height: 46px;
+    }
 }
 
 .popular-articles {
