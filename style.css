@@ -6973,7 +6973,7 @@ footer .footer-bottom a:after {
 }
 
 .comment {
-    padding: 0 0 0 72px;
+    padding: 0 0 0 0;
     margin: 15px 0;
     position: relative;
 }
