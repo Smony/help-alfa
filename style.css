@@ -5866,6 +5866,7 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .menu-items .section-menu-container__item .item-title {
         margin-bottom: 8px;
         min-height: 32px;
+        font-size: 14px;
     }
 }
 
@@ -6600,7 +6601,7 @@ footer .footer-bottom a:after {
 .menu-items.big-items .section-menu-container__item {
     width: calc( (100% - 56px * 2) / 3);
     max-width: 453px;
-    margin-right: auto;
+    margin-left: auto;
     margin-right: auto;
     min-height: 380px;
 }
