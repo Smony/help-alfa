@@ -5866,7 +5866,8 @@ header .header__top .header-top__buttons .button:not(:first-of-type) {
     .menu-items .section-menu-container__item .item-title {
         margin-bottom: 8px;
         min-height: 32px;
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 14px;
     }
 }
 
