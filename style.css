@@ -6635,6 +6635,9 @@ footer .footer-bottom a:after {
         width: 280px;
         margin-right: calc(100% - 280px * 2);
     }
+    .menu-items.big-items .section-menu-container__item:nth-of-type(3n+3) {
+        margin-right: calc(100% - 280px * 2);
+    }
 }
 
 @media (max-width: 970px) {
