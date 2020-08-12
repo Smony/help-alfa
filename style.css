@@ -6654,6 +6654,7 @@ footer .footer-bottom a:after {
     .menu-items.big-items .section-menu-container__item {
         min-height: 208px;
         width: 100%;
+        max-width: 100% !important;
     }
 }
 
