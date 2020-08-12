@@ -6640,30 +6640,11 @@ footer .footer-bottom a:after {
     }
 }
 
-@media (max-width: 970px) {
-    .menu-items.big-items .section-menu-container__item {
-        width: calc( (100% - 40px) / 2);
-        max-width: 324px;
-    }
-
-    .menu-items.big-items .section-menu-container__item:nth-of-type(2n+2) {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 950px) {
-    /* .menu-items.big-items .section-menu-container__item {
-        width: calc( (100% - 40px) / 2);
-        max-width: 335px;
-    } */
-}
-
 @media (max-width: 760px) {
     .menu-items.big-items .section-menu-container__item {
         margin-left: auto !important;
         margin-right: auto !important;
     }
-
 }
 
 @media (max-width: 650px) {
