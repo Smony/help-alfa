@@ -16,11 +16,11 @@
         </div>
     </div>
     <script>
-        if ( $('.optional') != null ) {
+        if ( document.querySelector('.optional') != null ) {
             if ( window.location.href.indexOf('/ru') != -1 ) {
-                $('.optional').innerText = "(по желанию)";
+                document.querySelector('.optional').innerText = "(по желанию)";
             } else {
-                $('.optional').innerText = "(необов’язково)";
+                document.querySelector('.optional').innerText = "(необов’язково)";
             }
         }
     </script>
