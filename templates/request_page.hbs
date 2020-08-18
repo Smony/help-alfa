@@ -249,3 +249,13 @@
     </section>
   </div>
 </div>
+
+<script>
+  if ( $('.optional') != null ) {
+    if ( window.location.href.indexOf('/ru') != -1 ) {
+      $('.optional').innerText = "(по желанию)";
+    } else {
+      $('.optional').innerText = "(необов’язково)";
+    }
+  }
+</script>
