@@ -18,9 +18,9 @@
     <script>
         if ( document.querySelector('.optional') != null ) {
             if ( window.location.href.indexOf('/ru') != -1 ) {
-                document.querySelector('.optional').innerText = "(по желанию)";
+                document.querySelector('.optional').innerText = "({{dc 'upload_title'}})";
             } else {
-                document.querySelector('.optional').innerText = "(необов’язково)";
+                document.querySelector('.optional').innerText = "({{dc 'upload_title'}})";
             }
         }
     </script>
